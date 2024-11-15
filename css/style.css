@@ -60,3 +60,68 @@ header {
 } 
 
 /*---------------------MAIN-----------------------*/
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    /*width: 65%;*/
+}
+
+.main-title span {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+.main-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color:  var(--main-color);
+}
+
+.main-icons {
+    display: inline-block;
+    margin-top: 60px;
+}
+
+
+/*-------------------MAIN - FORM---------------------*/
+.form-contain {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 28px 5px #6b6a6a44;
+}
+
+.form-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 30px;
+}
+
+.form-text,
+.form-email,
+.form-number {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.fomr-text {
+    padding-bottom: 20px;
+}
+
+
+.gap-text {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
